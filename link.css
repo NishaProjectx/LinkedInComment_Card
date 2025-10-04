@@ -1,0 +1,204 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+#comment{
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+/* #comment div{
+    border: 2px solid yellow;
+
+} */
+#introimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#introimg img {
+    width: 60px;
+    height: 60px;
+    border:none ;
+    border-radius: 50% ;
+    
+}
+#intro{
+    display: block;
+    line-height: 0.5px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px; */
+    max-width: 550px;
+    
+}
+#intro span{
+    color: gray;
+}
+#dot {
+    /* border: 2px solid red; */
+    font-size: 3px;
+    align-items: center;
+    
+
+}
+
+#earth{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+#posts{
+    /* border: 2px solid rgb(7, 94, 33); */
+    font-size: large;
+    font-weight: 400;
+    max-width: 550px;
+    max-height: 100px;
+}
+/* #see{
+    border: 2px solid gold;
+    
+} */
+#see p  {
+    /* border: 2px solid green; */
+    width: 540px;
+    display: flex;
+    justify-content: end;
+    color: gray;
+    padding: 0;
+    margin: 0;
+}
+#views{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    color: gray;
+}
+#reposts{
+    font-size: 3px;
+}
+
+#footer{
+    /* border: 2px solid rgb(70, 126, 136); */
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+#footer ul{
+    list-style-type: none;
+    display: flex;
+    color: gray;
+    /* border: 2px solid blue; */
+    justify-content: space-around;
+    max-width: 550px;
+    font-size: 25px;
+    /* padding: 0.5rem; */
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+
+        
+}
+nav{
+    padding: 1px;
+    /* border: 2px solid springgreen; */
+    height: 30px;
+    
+}
+
+#navbar{
+    /* border: 2px solid rgb(109, 7, 211); */
+    display: flex;
+    justify-content: space-between;
+    width: 550px;;
+    height: 30px;
+    padding: 1rem;
+    align-items: center;
+}
+#navbar div{
+    /* border: 2px solid greenyellow; */
+    max-height: 40px;
+
+}
+#nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+#nav1 img{
+    width: 30px;
+    height: 25px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+#nav1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    
+
+}
+#nav1 span{
+    color: gray;
+}
+#nav2{
+    color: gray;
+}
+
+#card{
+    border: 2px solid white;
+    max-width: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 100px;
+}
+
+#linkcard{
+    /* border: 2px solid indianred; */
+    margin: 10px;
+    /* padding: 50px; */
+   
+}
+#gradient{
+    border: 0.5px solid gray;
+}
+#like{
+    width: 45px;
+    height: 40px;
+    
+    
+}
+#likey{
+    display: flex;
+}
+#sec2{
+    /* border: 2px solid rgb(134, 65, 100); */
+    margin-left: 11px;
+    
+}
+#sec1{
+    margin-left: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav2:hover{
+    cursor: pointer;
+}
+
+#footer li i:hover{
+    cursor: pointer;
+    
+}
