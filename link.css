@@ -211,7 +211,7 @@ nav{
     
 }
 
-@media  (min-width :120px) and (max-width:800px){
+@media  (min-width :250px) and (max-width:800px){
     #navbar{
         max-width: 500px;
        
