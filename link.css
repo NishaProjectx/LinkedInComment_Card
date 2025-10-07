@@ -39,7 +39,7 @@ html{
 }
 #intro p{
     color: gray;
-    max-width: 600px;
+    max-width: 450px;
 }
 
 #intro span{
@@ -218,7 +218,7 @@ nav{
 
 @media  (min-width :120px) and (max-width:800px){
     #navbar{
-        max-width: 500px;
+        width: 100%;
        
     }
     #intro p{
@@ -227,7 +227,7 @@ nav{
     }
     #sec2{
         line-height: 15px;
-        max-width: 430px;
+        width: 430px;
 
     }
 
