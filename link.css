@@ -37,6 +37,11 @@ html{
     max-width: 550px;
     
 }
+#intro p{
+    color: gray;
+    max-width: 500px;
+}
+
 #intro span{
     color: gray;
 }
@@ -216,8 +221,8 @@ nav{
         max-width: 500px;
        
     }
-    #intro{
-        max-width: 230px;
+    #intro p{
+        max-width: 250px;
         line-height: 20px;
     }
     #sec2{
