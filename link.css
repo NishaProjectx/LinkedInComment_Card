@@ -216,18 +216,19 @@ nav{
     
 }
 
-@media  (min-width :120px) and (max-width:800px){
+@media (max-width:600px){
     #navbar{
         width: 100%;
        
     }
     #intro p{
-        width: 400px;
+        width: 90px;
         line-height: 20px;
     }
     #sec2{
         line-height: 15px;
         width: 430px;
+        line-height: 1.4;
 
     }
 
