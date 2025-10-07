@@ -222,7 +222,7 @@ nav{
        
     }
     #intro p{
-        max-width: 400px;
+        width: 400px;
         line-height: 20px;
     }
     #sec2{
