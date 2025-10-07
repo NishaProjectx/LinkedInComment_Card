@@ -37,11 +37,6 @@ html{
     max-width: 550px;
     
 }
-#intro p{
-    color: gray;
-    max-width: 450px;
-}
-
 #intro span{
     color: gray;
 }
@@ -216,19 +211,18 @@ nav{
     
 }
 
-@media (max-width:600px){
+@media  (min-width :120px) and (max-width:800px){
     #navbar{
-        width: 100%;
+        max-width: 500px;
        
     }
-    #intro p{
-        width: 90px;
+    #intro{
+        max-width: 230px;
         line-height: 20px;
     }
     #sec2{
         line-height: 15px;
-        width: 430px;
-        line-height: 1.4;
+        max-width: 430px;
 
     }
 
