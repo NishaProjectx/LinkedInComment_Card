@@ -211,14 +211,15 @@ nav{
     
 }
 
-@media  (min-width :550px) and (max-width:800px){
+@media  (min-width :120px) and (max-width:800px){
     #navbar{
         max-width: 500px;
        
     }
-    #intro span{
-        max-width: 250px;
-        line-height: 20px;
+    #intro{
+        max-width: 233px;
+        line-height: 30px;
+
     }
     #sec2{
         line-height: 15px;
