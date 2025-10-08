@@ -30,7 +30,7 @@ html{
 }
 #intro{
     display: block;
-    line-height: 0.2px;
+    line-height: 0.5px;
     justify-content: center;
     align-items: center;
     /* margin-top: 10px; */
@@ -216,9 +216,9 @@ nav{
         max-width: 500px;
        
     }
-     #intro {
+    #intro{
         max-width: 230px;
-        line-height: 1.2; 
+        line-height: 20px;
     }
     #sec2{
         line-height: 15px;
@@ -231,18 +231,4 @@ nav{
 #views{
     /* border: 2px solid hotpink; */
     width: 100%;
-}
-
-
-#intro h4 span{
-    color: black;
-}
-
-#intro h4 {
-    margin: 0;       
-}
-
-#intro h4 span {
-    display: inline-block;
-    margin-left: 5px; 
 }
