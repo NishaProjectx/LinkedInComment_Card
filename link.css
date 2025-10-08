@@ -35,10 +35,16 @@ html{
     align-items: center;
     /* margin-top: 10px; */
     max-width: 550px;
+    /* border: 2px solid green; */
+
     
 }
-#intro span{
+#intro p{
     color: gray;
+    display: flex;
+    /* border: 2px solid green; */
+    /* max-height: 2rem; */
+    letter-spacing: 0.25px;
 }
 #dot {
     /* border: 2px solid red; */
