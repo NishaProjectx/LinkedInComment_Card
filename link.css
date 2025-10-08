@@ -35,16 +35,10 @@ html{
     align-items: center;
     /* margin-top: 10px; */
     max-width: 550px;
-    /* border: 2px solid green; */
-
     
 }
-#intro p{
+#intro span{
     color: gray;
-    display: flex;
-    /* border: 2px solid green; */
-    /* max-height: 2rem; */
-    letter-spacing: 0.25px;
 }
 #dot {
     /* border: 2px solid red; */
@@ -223,9 +217,8 @@ nav{
        
     }
     #intro{
-        max-width: 233px;
-        line-height: 30px;
-
+        max-width: 230px;
+        line-height: 20px;
     }
     #sec2{
         line-height: 15px;
