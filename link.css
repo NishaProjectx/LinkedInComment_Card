@@ -216,10 +216,10 @@ nav{
         max-width: 500px;
        
     }
-    #intro{
+    /* #intro{
         max-width: 230px;
         line-height: 20px;
-    }
+    } */
     #sec2{
         line-height: 15px;
         max-width: 430px;
@@ -232,3 +232,4 @@ nav{
     /* border: 2px solid hotpink; */
     width: 100%;
 }
+
